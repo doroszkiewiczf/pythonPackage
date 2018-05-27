@@ -1,0 +1,13 @@
+setup.py
+AdviceLib.egg-info/PKG-INFO
+AdviceLib.egg-info/SOURCES.txt
+AdviceLib.egg-info/dependency_links.txt
+AdviceLib.egg-info/requires.txt
+AdviceLib.egg-info/top_level.txt
+adviceAdder/__init__.py
+adviceAdder/advices.py
+adviceAdder/comments.py
+csvOperations/__init__.py
+csvOperations/adviceCSVreader.py
+csvOperations/adviceCSVwriter.py
+test/test.py
