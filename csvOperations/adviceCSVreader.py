@@ -20,6 +20,7 @@ def readAdvices(adviceList, fileName):
             for i in range(4, row.__len__(), 2):
                 newComent = Comment(row[i], row[i + 1])
                 newComments.append(newComent)
-                adviceList.append(newAdvice)
+            newAdvice = Advice(row[0], row[1], float(row[2]), row[3], newComments)
+            adviceList.append(newAdvice)
     return adviceList
 
