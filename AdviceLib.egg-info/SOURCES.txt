@@ -2,7 +2,6 @@ setup.py
 AdviceLib.egg-info/PKG-INFO
 AdviceLib.egg-info/SOURCES.txt
 AdviceLib.egg-info/dependency_links.txt
-AdviceLib.egg-info/requires.txt
 AdviceLib.egg-info/top_level.txt
 adviceAdder/__init__.py
 adviceAdder/advices.py

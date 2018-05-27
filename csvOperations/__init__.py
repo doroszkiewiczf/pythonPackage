@@ -1,2 +1,2 @@
-import . adviceCSVreader
-import . adviceCSVwriter
+from . import adviceCSVreader
+from . import adviceCSVwriter
