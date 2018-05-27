@@ -22,7 +22,7 @@ class Advice(object):
 
 
 
-def add_advice(adlist):
+def add_advice(adviceList):
     advice_author = input("Author name: ")
     advice_title = input("Title: ")
     advice_text = input("Advice text: ")
@@ -31,7 +31,7 @@ def add_advice(adlist):
                          0, advice_text, advice_comments))
 
 
-def remove_advice(adlist):
+def remove_advice(adviceList):
     answ = True
     while answ:
         print('\n')
