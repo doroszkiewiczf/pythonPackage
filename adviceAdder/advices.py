@@ -27,7 +27,7 @@ def add_advice(adviceList):
     advice_title = input("Title: ")
     advice_text = input("Advice text: ")
     advice_comments = list()
-    adlist.append(Advice(advice_title, advice_author,
+    adviceList.append(Advice(advice_title, advice_author,
                          0, advice_text, advice_comments))
 
 
