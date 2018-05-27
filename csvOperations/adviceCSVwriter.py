@@ -8,13 +8,13 @@ class Comment(object):
 class Advice(object):
 
     def __init__(self, title, autor, rate, text, comments ):
-    	self.title = title
+        self.title = title
         self.autor = autor
         self.rate = rate
         self.text = text
         self.comments = comments
 
-def writeAdvices(adviceList, fileName)
+def writeAdvices(adviceList, fileName):
    with open(fileName, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter='|', quotechar=' ')
     for i in range(adviceList.__len__()):
