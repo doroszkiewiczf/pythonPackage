@@ -13,7 +13,7 @@ class Advice(object):
         self.comments = comments
 
 def readAdvices(adviceList, fileName):
-    with open(fileName, newline='') as csvfile:
+    with open(fileName, 'r') as csvfile:
         reader = csv.reader(csvfile, delimiter='|', quotechar=' ')
         for row in reader:
             newComments = list()
