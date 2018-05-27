@@ -35,9 +35,10 @@ def remove_advice(adviceList):
     answ = True
     while answ:
         print('\n')
-        for i in range(adviceList.__len__()):
-            sys.stdout.write(str(i) + ": ")
-            adviceList[i].printing()
+        i = 0
+        for ad in adviceList:
+            sys.stdout.write(i++ + ": ")
+            ad.printing()
         print('\n')
         answ = input("Choose advice to REMOVE or press e to go back ")
         if answ == "e":
