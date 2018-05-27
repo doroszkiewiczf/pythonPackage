@@ -16,5 +16,5 @@ for i in range(adviceList.__len__()):
 adviceCSVwriter.writeAdvices(adviceList, 'advices5.csv')
 advices.add_advice(adviceList)
 advices.remove_advice(adviceList)
-
+comments.add_comment(adviceList[0])
 
