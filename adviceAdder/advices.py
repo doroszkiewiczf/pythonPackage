@@ -48,7 +48,7 @@ def remove_advice(adviceList):
             answ = False
         elif answ.isdigit():
             if -1 < int(answ) < adviceList.__len__():
-                adlist.pop(int(answ))
+                adviceList.pop(int(answ))
             else:
                 print("\n There is no advice with this number!")
         elif answ != "":
