@@ -1,0 +1,19 @@
+Dokumentacja dla biblioteki do obsługi ogłoszeń
+
+Package: adviceAdder
+
+ - Moduł: advices
+	add_advice(adviceList) - dodanie do list ogłoszeń - adviceList, nowego ogłoszenia, ogłoszenie wprowadzne ręcznie z konsoli
+	
+	remove_advice(adviceList) - usunięcie wybranego ogłoszenia z listy, ogłoszenie wybierane z konsoli
+
+ - Moduł: comments
+	add_comment(advice) - dodanie komentarza z konsoli do ogłoszenia - advice
+
+Package: csvOperations
+
+ - Moduł: adviceCSVreader
+	readAdvices(adviceList, fileName) - odczyt z pliku csv - fileName listy ogłoszeń, która zapisana jest do adviceList
+
+ - Moduł: adviceCSVwriter
+	writeAdvices(adviceList, fileName) - zapisanie listy ogłoszeń  - adviceList do pliku csv o nazwie fileName
